@@ -19,6 +19,14 @@
 	box-shadow: -3px 3px 7px rgba(50, 50, 50, .6), inset -100px 0px 100px rgba(100, 100, 100, .4);
 }
 
+input[type="button"]:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+input[type="button"]:active {
+	transform: translateY(5px);
+}
+
 #display {
 	display: block;
 	margin: 15px auto;
